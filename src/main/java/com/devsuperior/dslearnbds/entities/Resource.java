@@ -97,6 +97,10 @@ public class Resource implements Serializable {
         this.offer = offer;
     }
 
+    public List<Section> getSections() {
+        return sections;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
